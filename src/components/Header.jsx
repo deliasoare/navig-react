@@ -1,5 +1,3 @@
-import '../styles/header.scss';
-
 import { useState } from 'react';
 import Photo from '../assets/LOGO_NAVIGAID.png'
 
