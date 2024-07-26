@@ -1,24 +1,9 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-#root, .container {
-    width: 100%;
-    min-height: 100vh;
-}
-
-.container {
-    display: grid;
-    grid-template-rows: 50px 1fr 50px;
-    padding: 1em 7.5rem;
-}
 
 .header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 2em;
     align-items: center;
 
     .logo img {
@@ -75,3 +60,5 @@
   .menu-item:hover {
     background-color: #f1f1f1;
   }
+
+
