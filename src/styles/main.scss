@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @import 'header.scss';
 @import 'card.scss';
-@import 'review.scss';
+@import 'searchbar.scss';@import 'review.scss';
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Playfair Display", serif;
 }
 #root, .container {
     width: 100%;
@@ -15,7 +18,24 @@
 .container {
     display: grid;
     grid-template-rows: 50px 1fr 50px;
-    padding: 1em 7.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 5rem;
+}
+
+@media (max-width: 500px) {
+    .main {
+        padding: 1em 3rem;
+    }
+}
+
+.ratingStars {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .ratingStars {
