@@ -1,0 +1,17 @@
+.review{
+width:50%;
+padding: 1em;
+.user,.rating{
+    display: flex;
+    gap: 10px;
+}
+.user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+}
+
+.rating .ratingNumber{
+    font-size: 0.7rem;
+}

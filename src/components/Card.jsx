@@ -5,7 +5,7 @@ function Card({businessName, businessRating, businessDescription, businessLocati
         <div className="card">
             <img src={ businessPhoto } alt="" />
             <div className="name">{ businessName }</div>
-            <Rating rating={businessRating} />
+            <Rating rating={businessRating} color={"gold"} size={24}/>
             <div className="description">{ businessDescription }</div>
             <div className="location">{ businessLocation }</div>
         </div>

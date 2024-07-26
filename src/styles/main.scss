@@ -1,5 +1,6 @@
 @import 'header.scss';
 @import 'card.scss';
+@import 'review.scss';
 
 * {
     padding: 0;
@@ -15,4 +16,10 @@
     display: grid;
     grid-template-rows: 50px 1fr 50px;
     padding: 1em 7.5rem;
+}
+
+.ratingStars {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
